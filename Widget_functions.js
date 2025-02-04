@@ -1,4 +1,4 @@
-const functionContainer = {
+window.functionContainer = {
     Widget_function: () => {
         self.ctx.widget.config.settings.yaxis.max = 10;
         console.log("Function 1 executed!", self);
